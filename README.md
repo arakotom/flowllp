@@ -1,6 +1,7 @@
 # FlowLLP
 
-Research code for FlowLLP-style learning from label proportions.
+Research code for FlowLLP-style learning from label proportions published at ICML 2026 in Seoul.
+The paper is available here https://hal.science/hal-05063059v3/file/propot%20%281%29.pdf
 
 This repository includes:
 
@@ -135,6 +136,5 @@ If this code is useful in your work, please cite the corresponding FlowLLP paper
   series =    {Proceedings of Machine Learning Research},
   month =     {6--22 Jul},
   publisher = {PMLR},
-
 }
 ```

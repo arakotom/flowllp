@@ -122,3 +122,19 @@ If not, add the corresponding project data helper module to your Python path.
 ## Citation
 
 If this code is useful in your work, please cite the corresponding FlowLLP paper.
+
+```bibtex
+@InProceedings{pmlr-v142-rakotomamonjy26,
+  title =     {Particle Flow for Learning from Label Proportions},
+  author =    {Rakotomamonjy, Alain and Vono, Maxime, and Ralaivola, Liva},
+  booktitle = {Proceedings of the 42th International Conference on Machine Learning},
+  pages =     {8810--8820},
+  year =      {2026},
+  editor =    {Meila, Marina and Zhang, Tong},
+  volume =    {143},
+  series =    {Proceedings of Machine Learning Research},
+  month =     {6--22 Jul},
+  publisher = {PMLR},
+
+}
+```

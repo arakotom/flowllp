@@ -107,18 +107,6 @@ The script prints the exact result file path at startup and updates it during tr
 
 `flowLLP.py` primarily reports metrics to stdout and does not write the same structured result artifacts by default.
 
-## Reproducibility
-
-- Both main scripts set deterministic seeds and CuDNN flags.
-- For robust reporting, run multiple seeds and aggregate mean/std.
-- Default settings can be long, especially anchor learning (`num_epochs_prop=3000` in `flowLLP_end2end.py`).
-
-## Notes on Data Helpers
-
-`flowLLP.py` and `bagloss.py` import functions from a module named `data`.
-
-If your environment already provides that module (as in your current setup), these scripts run normally.
-If not, add the corresponding project data helper module to your Python path.
 
 ## Citation
 
